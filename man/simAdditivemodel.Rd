@@ -43,9 +43,9 @@ simAdditivemodel(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-#sim.additivemodel(beta1 = 0.2, beta2 = 0.3, samp=10)
+simAdditivemodel(beta1 = 0.2, beta2 = 0.3, samp=10)
 
-#sim.additivemodel(beta1 = 0.2, beta2 = 0.3, timevarying = 5, samp=10)
+simAdditivemodel(beta1 = 0.2, beta2 = 0.3, timevarying = 5, samp=10)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
