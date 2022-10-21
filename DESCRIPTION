@@ -3,7 +3,7 @@ Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
 Author: Thomas Maltesen
-Maintainer: Thomas Maltesen <thom@cancer.dk>
+Maintainer: Thomas Maltesen <thomas.maltesen@proton.me>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 Imports: readr, dplyr, data.table, msm
