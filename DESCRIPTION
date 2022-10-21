@@ -1,0 +1,14 @@
+Package: sdaKB
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Thomas Maltesen
+Maintainer: Thomas Maltesen <thom@cancer.dk>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Imports: readr, dplyr, data.table, msm
+Depends: readr, dplyr, data.table, msm
+URL: https://github.com/mcl868/sdaKB.git
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
