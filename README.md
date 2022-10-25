@@ -5,7 +5,11 @@ How to install the r-package from GitHub
 devtools::install_github("mcl868/sdatry", force = T)
 ```
 
-## Simulate from an addative model
+## Sor codes
+
+
+## Simulate survival data
+### Simulate from an addative model
 ```markdown
 simAdditivemodel(beta1,
                  beta2,
@@ -20,7 +24,7 @@ simAdditivemodel(beta1,
 - *timevarying*:     Data.
 - *samp*:     Data.
 
-## Simulate from a cox model
+### Simulate from a cox model
 ```markdown
 simCoxmodel(beta1,
             beta2,
