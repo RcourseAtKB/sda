@@ -47,7 +47,5 @@ simCoxmodel(beta1,
 
 
 
-  </body>
-    <h6> Updated: 2020-07-01</br>
+    <h6> Updated: 2020-07-01
     <a href="mailto:thomas.maltesen@proton.me">Contact me.</a>
-</h6>
