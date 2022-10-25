@@ -59,7 +59,7 @@ simAdditivemodel <- function(beta1, beta2, unmeasured =  FALSE, timevarying = FA
     }
   }
   dataSim <- dataSim[order(dataSim$id), ]
-  dataSim <- data.table(dataSim[with(dataSim, Time0 < Time1), ] %>% rename("var1" = "A", "var2" = "L"))
+  dataSim <- data.frame(dataSim[with(dataSim, Time0 < Time1), ] %>% rename("var1" = "A", "var2" = "L"))
 
   dataSim
 
