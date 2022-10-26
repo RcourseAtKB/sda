@@ -10,7 +10,7 @@ devtools::install_github("mcl868/sdatry", force = T)
 lookatSHAK(x)
 ```
 **Input**
-- *beta1*:  Models corresponding to response.
+- *x*:  Models corresponding to response.
 
 ## Simulate survival data
 ### Simulate from an addative model
