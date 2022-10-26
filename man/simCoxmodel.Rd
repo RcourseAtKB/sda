@@ -42,9 +42,9 @@ simCoxmodel(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-simCoxmodel(beta1 = -0.3,beta2 = -0.4,beta3 = 0.6, samp=10)
+simCoxmodel(beta1 = -0.3, beta2 = -0.4, beta3 = 0.6, samp=10)
 
-simCoxmodel(beta1 = -0.3,beta2 = -0.4,beta3 = 0.6, timevarying = 5, samp=10)
+simCoxmodel(beta1 = -0.3, beta2 = -0.4, beta3 = 0.6, timevarying = 5, samp=10)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
