@@ -2,7 +2,7 @@
 How to install the r-package from GitHub
 
 ```markdown
-devtools::install_github("mcl868/sdatry", force = T)
+devtools::install_github("mcl868/sda", force = T)
 ```
 
 ## Sor codes
