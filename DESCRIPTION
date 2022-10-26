@@ -8,7 +8,7 @@ Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 Imports: readr, dplyr, msm
 Depends: readr, dplyr, msm
-URL: https://github.com/mcl868/sdaKB.git
+URL: https://github.com/mcl868/sdatry.git
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
