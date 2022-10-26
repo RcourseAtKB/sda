@@ -1,4 +1,4 @@
-# sdatry
+# sda
 How to install the r-package from GitHub
 
 ```markdown
