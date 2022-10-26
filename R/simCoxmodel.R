@@ -79,8 +79,7 @@ simCoxmodel <- function(beta1, beta2, beta3, rateC = 0.2, unmeasured =  FALSE, t
     z.temp <- z.list[[i]][1:(ceiling(g.ystar[i])), c(1,2,3), drop=F]
     data.temp <- cbind(id.temp, time0.temp, time1.temp, d.temp, z.temp)
     data.temp <- data.frame(data.temp)
-    data.temp <- data.table(data.temp %>% rename("id" = "id.temp", "time1" = "time1.temp", "time0" = "time0.temp", "status" = "d.temp"))
-    data.temp <- data.temp[,list(Time0 = min(time0), Time1 = max(time1), status = max(status)), by=.(id, var1, var2, var3)]
+    data.temp <- data.temp %>% rename("id" = "id.temp", "time1" = "time1.temp", "time0" = "time0.temp", "status" = "d.temp")
     data.temp <- data.temp %>% mutate(time = Time1 - Time0)
     rm(id.temp);rm(time0.temp);rm(time1.temp);rm(d.temp);rm(z.temp)
     dataSim <- rbind(dataSim, data.temp)
