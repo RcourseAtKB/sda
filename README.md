@@ -6,7 +6,11 @@ devtools::install_github("mcl868/sdatry", force = T)
 ```
 
 ## Sor codes
-
+```markdown
+lookatSHAK(x)
+```
+**Input**
+- *beta1*:  Models corresponding to response.
 
 ## Simulate survival data
 ### Simulate from an addative model
@@ -42,10 +46,7 @@ simCoxmodel(beta1,
 - *rateC*:     Data.
 - *unmeasured*:     Data.
 - *timevarying*:     Data.
-- *dsampata*:     Data.
-
-
-
+- *samp*:     Data.
 
 <h6> Updated: 2020-07-01
 <a href="mailto:thomas.maltesen@proton.me">Contact me.</a>
