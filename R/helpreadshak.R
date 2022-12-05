@@ -14,7 +14,7 @@ helpreadshak <-  function() {
                           Institution = NA_character_,
                           Institution = if_else(C_SGHTYPE %in% 1, "Offentlig", Institution),
                           Institution = if_else(C_SGHTYPE %in% 2, "Privat", Institution),
-                          Institution = if_else(C_SGHTYPE %in% 3, "\u00d6vrige", Institution))
+                          Institution = if_else(C_SGHTYPE %in% 3, "\u00d8vrige", Institution))
   SHAK$C_REGION <- NULL
   SHAK$C_SGHTYPE <- NULL
   return(SHAK)
