@@ -10,7 +10,12 @@ helpreadshak <-  function() {
                           Region = if_else(C_REGION %in% 1082, "Midtjylland", Region),
                           Region = if_else(C_REGION %in% 1083, "Syddanmark", Region),
                           Region = if_else(C_REGION %in% 1084, "Hovedstaden", Region),
-                          Region = if_else(C_REGION %in% 1085, "Sj\u00e6lland", Region))
+                          Region = if_else(C_REGION %in% 1085, "Sj\u00e6lland", Region),
+                          Institution = NA_character_,
+                          Institution = if_else(C_SGHTYPE %in% 1, "Offentlig", Institution),
+                          Institution = if_else(C_SGHTYPE %in% 2, "Privat", Institution),
+                          Institution = if_else(C_SGHTYPE %in% 3, "\u00d6vrige", Institution))
   SHAK$C_REGION <- NULL
+  SHAK$C_SGHTYPE <- NULL
   return(SHAK)
 }
