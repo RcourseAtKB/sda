@@ -1,5 +1,5 @@
 helpreadshak <-  function() {
-  path <- "https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/shakregion/SHAKreegion.txt"
+  path <- "https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/shakregion/SHAKregion.txt"
   if(url.exists(path)){
     SHAK <- suppressMessages(read_delim(path,
                                         delim = "\t", escape_double = FALSE,
