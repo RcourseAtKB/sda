@@ -12,6 +12,14 @@ lookatSHAK(x)
 **Input**
 - *x*:  Models corresponding to response.
 
+### Eksemple
+```markdown
+lookatSHAK("1311")
+   K_SGH                     V_SGHNAVN K_FRADTO D_TILDTO C_INSTART   C_SORID      Region Institution                                               
+16  1311 KØBENHAVN, BØRNEHOSPITALET PÅ 19760401 19771231       119 6.111e+12 Hovedstaden   Offentlig
+17  1311 KØBENHAVN, BØRNEHOSPITALET PÅ 19780101 19831231       111 6.111e+12 Hovedstaden   Offentlig
+```
+
 ## Simulate survival data
 ### Simulate from an addative model
 ```markdown
