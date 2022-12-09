@@ -1,6 +1,7 @@
 helpreadshak <-  function() {
-  if(url.exists("https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/shakregion/SHAKregion.txt")){
-    SHAK <- suppressMessages(read_delim("https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/shakregion/SHAKregion .txt",
+  path <- "https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/shakregion/SHAKreegion.txt"
+  if(url.exists(path)){
+    SHAK <- suppressMessages(read_delim(path,
                                         delim = "\t", escape_double = FALSE,
                                         col_names = FALSE, trim_ws = TRUE, locale = locale(encoding = "latin1")))
     colnames(SHAK) <- c("K_SGH", "V_SGHNAVN", "K_FRADTO", "D_TILDTO", "C_SGHTYPE", "C_INSTART", "C_REGION", "C_SORID")
