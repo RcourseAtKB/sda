@@ -1,5 +1,5 @@
 lookatSHAK <- function(x) {
-  if(is.character(warnErrList(suppressWarnings(helpreadshak()))){
+  if(is.character(warnErrList(suppressWarnings(helpreadshak())))){
     warnErrList(suppressWarnings(helpreadshak()))
    } else {
     if(is.character(x)){
