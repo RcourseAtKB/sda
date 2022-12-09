@@ -18,7 +18,6 @@ helpreadshak <-  function() {
                             Institution = if_else(C_SGHTYPE %in% 3, "\u00d8vrige", Institution))
     SHAK$C_REGION <- NULL
     SHAK$C_SGHTYPE <- NULL
+    return(SHAK)
   } else {warning("The link does not work.")}
-
-  return(SHAK)
 }
