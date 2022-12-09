@@ -6,7 +6,7 @@ helpreadshak <-  function() {
     colnames(SHAK) <- c("K_SGH", "V_SGHNAVN", "K_FRADTO", "D_TILDTO", "C_SGHTYPE", "C_INSTART", "C_REGION", "C_SORID")
   
     SHAK <- data.frame(SHAK)
-   SHAK <- SHAK %>% mutate(Region = NA_character_,
+    SHAK <- SHAK %>% mutate(Region = NA_character_,
                             Region = if_else(C_REGION %in% 1081, "Nordjylland", Region),
                             Region = if_else(C_REGION %in% 1082, "Midtjylland", Region),
                             Region = if_else(C_REGION %in% 1083, "Syddanmark", Region),
@@ -18,7 +18,7 @@ helpreadshak <-  function() {
                             Institution = if_else(C_SGHTYPE %in% 3, "\u00d8vrige", Institution))
     SHAK$C_REGION <- NULL
     SHAK$C_SGHTYPE <- NULL
-    save("R/SHAK.Rdata")
-    return(SHAK)
-  }
+  }# else {load("SHAK.Rdata")}
+
+  return(SHAK)
 }
