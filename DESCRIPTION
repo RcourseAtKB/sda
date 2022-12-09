@@ -6,8 +6,8 @@ Author: Thomas Maltesen
 Maintainer: Thomas Maltesen <thomas.maltesen@proton.me>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-Imports: readr, tidyverse, msm
-Depends: readr, tidyverse, msm
+Imports: readr, dply, RCurl, msm
+Depends: readr, dply, RCurl, msm
 URL: https://github.com/mcl868/sda.git
 License: GPL (>= 3)
 Encoding: UTF-8
