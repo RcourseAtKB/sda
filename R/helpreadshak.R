@@ -16,7 +16,12 @@ helpreadshak <-  function() {
                             Institution = NA_character_,
                             Institution = if_else(C_SGHTYPE %in% 1, "Offentlig", Institution),
                             Institution = if_else(C_SGHTYPE %in% 2, "Privat", Institution),
-                            Institution = if_else(C_SGHTYPE %in% 3, "\u00d8vrige", Institution))
+                            Institution = if_else(C_SGHTYPE %in% 3, "\u00d8vrige", Institution),
+                            K_FRADTO = paste0(substr(K_FRADTO, 1, 4), "-", substr(K_FRADTO, 5, 6), "-", substr(K_FRADTO, 7, 8)),
+                            D_TILDTO = paste0(substr(D_TILDTO, 1, 4), "-", substr(D_TILDTO, 5, 6), "-", substr(D_TILDTO, 7, 8)))
+SHAK$K_FRADTO <- as.Date(SHAK$K_FRADTO)
+SHAK$D_TILDTO <- as.Date(SHAK$D_TILDTO)
+
     SHAK$C_REGION <- NULL
     SHAK$C_SGHTYPE <- NULL
     return(SHAK)
