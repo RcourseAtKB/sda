@@ -4,7 +4,7 @@ How to install the r-package from GitHub
 ```markdown
 devtools::install_github("mcl868/sda", force = T)
 ```
-Do the following (you have to pick 'None')
+Do the following (you have to pick 'None'):
 ```markdown
 devtools::install_github("mcl868/sda", force = T)
 Downloading GitHub repo mcl868/sda@HEAD
@@ -21,7 +21,7 @@ Which would you like to update?
 7: msm        (1.6.9 -> 1.7   ) [CRAN]
 8: dplyr      (1.0.9 -> 1.0.10) [CRAN]
 
-Enter one or more numbers, or an empty line to skip updates: 
+Enter one or more numbers, or an empty line to skip updates: 3
 ```
 
 ## Sor codes
