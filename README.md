@@ -4,6 +4,25 @@ How to install the r-package from GitHub
 ```markdown
 devtools::install_github("mcl868/sda", force = T)
 ```
+Do the following (you have to pick 'None')
+```markdown
+devtools::install_github("mcl868/sda", force = T)
+Downloading GitHub repo mcl868/sda@HEAD
+These packages have more recent versions available.
+It is recommended to update all of them.
+Which would you like to update?
+
+1: All                                
+2: CRAN packages only                 
+3: None                               
+4: bit        (4.0.4 -> 4.0.5 ) [CRAN]
+5: tidyselect (1.1.2 -> 1.2.0 ) [CRAN]
+6: crayon     (1.5.1 -> 1.5.2 ) [CRAN]
+7: msm        (1.6.9 -> 1.7   ) [CRAN]
+8: dplyr      (1.0.9 -> 1.0.10) [CRAN]
+
+Enter one or more numbers, or an empty line to skip updates: 
+```
 
 ## Sor codes
 ```markdown
