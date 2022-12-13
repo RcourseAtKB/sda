@@ -10,7 +10,7 @@ devtools::install_github("mcl868/sda", force = T)
 lookatSHAK(x)
 ```
 **Input**
-- *x*:  Models corresponding to response.
+- *x*:  Write the sor code to look up the information about the place. The character has to be a least 4 characters, see the example.
 
 ### Eksemple
 ```markdown
