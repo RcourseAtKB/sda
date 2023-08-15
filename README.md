@@ -1,6 +1,10 @@
 # sda
 How to install the r-package from GitHub
 
+<p>
+ <a href="https://rcourseatkb.github.io/KB-R-course/nicerstuff.html">Go back to homepage</a>.
+</p>
+
 ```markdown
 devtools::install_github("mcl868/sda", force = T)
 ```
